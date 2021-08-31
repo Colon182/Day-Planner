@@ -30,3 +30,18 @@ function colorSwap() {
 }
 
 colorSwap();
+
+// create our document ready function to make sure nothing runs before we load the page
+$(document).ready(function () {
+    $('.saveBtn').on('click', saveText)
+})
+
+// function to save entered text to local storage
+function saveText() {
+    // variable to grab entered text
+    var plan = $(this).siblings('.description').val();
+    // variable to store which block text was entered into
+    var time = $(this).parent().attr('id');
+
+    localStorage.setItem(plan, time);
+}
