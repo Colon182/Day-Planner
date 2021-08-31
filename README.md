@@ -1,22 +1,6 @@
 # Day-Planner
-// create our document ready function to make sure nothing runs before we load the page.
-$(document).ready(function () {
+## Description
+A simple Day-Planner application to store work day tasks from 9am to 5pm.
 
-})
-// listen for click events on the page
-    // grab the saved events options
-        // create variables to save user input and time
-
-        // save to local storage
-
- 
- 
- 
-        //  Alert
- 
- 
- 
- 
-
-
-        // 
+## Screenshot
+![DayPlannerScreenshot](Assets/Images/DayPlanner.png)
